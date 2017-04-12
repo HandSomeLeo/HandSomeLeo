@@ -1,0 +1,321 @@
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td { margin: 0; padding: 0;}
+img {border: 0 none; vertical-align: top;display:inline-block;}
+button { cursor: pointer; border:0 none;}
+input{border:0 none;background:transparent;}
+textarea{resize: none;border:0 none;}
+ul, li { list-style-type: none; }
+table{border-collapse:collapse;border-spacing:0;}
+i, em, cite { font-style: normal; }
+p{word-wrap:break-word}
+.fixed:after {clear:both;content:'.';display:block;font-size:0;line-height:0;visibility:hidden;height:0;}
+.fixed {zoom:1;}
+h1,h2,h3{font-weight:normal;}
+body, input, select, button,textarea{
+    font-family:"Microsoft YaHei","微软雅黑","黑体","Adobe 黑体 Std",arial,helvetica,verdana,tahoma,sans-serif;
+    font-weight:normal;
+    outline:none;
+    font-size:12px;
+}
+a,input,textarea,p,span,h2,em,li,div,img{
+    text-decoration: none;
+    -webkit-tap-highlight-color:rgba(255, 255, 255, 0);
+}
+a{text-decoration: none;}
+body{
+    background-color: #ffffff;
+    position: relative;
+}
+/**main**/
+
+.section{
+    height: 900px;
+    position: relative;
+
+}
+.pageback:nth-child(1){
+    background: url('../image/ico_1.jpg') no-repeat scroll center center;
+    background-size: cover;
+}
+.pageback:nth-child(2),.pageback:nth-child(4){
+    background: url('../image/ico_3.jpg') no-repeat scroll center center;
+    background-size: cover;
+}
+.pageback:nth-child(3){
+    background: url('../image/ico_2.jpg') no-repeat scroll center center;
+    background-size: cover;
+}
+.content{
+    width: 1100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -60%);
+    -webkit-transform: translate(-50%, -60%);
+    transform: translate(-50%, -60%);
+}
+.content .con_img{
+    text-align: center;
+}
+
+.con_link{
+    width: 220px;
+    height: 52px;
+    display: block;
+    background: url('../image/a_2.png') no-repeat scroll center center;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.con_imga{
+    padding-top: 70px;
+}
+.con_imga div:first-child{
+    float: left;
+}
+.con_imga div:last-child{
+    float: right;
+}
+.con_bottom{
+    width: 100%;
+    height: 216px;
+    position: absolute;
+    background-color: #f8f8f8;
+    bottom: 0;
+    left: 0;
+}
+.con_information{
+    width: 1100px;
+    height:176px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -550px;
+}
+.con_information li{
+    width: 260px;
+    height: 176px;
+    border-top: 2px solid #333333;
+    float: left;
+}
+.con_information li p.a{
+    color: #333333;
+    font-size: 16px;
+    margin-top: 22px;
+}
+.con_email{
+    width: 230px;
+    height: 45px;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #333333;
+    color: #333333;
+    font-size: 14px;
+    margin-top: 25px;
+    background: url('../image/a_9.png') no-repeat scroll 29px center;
+}
+.con_email span{
+    padding-left: 30px;
+}
+.con_information li p.b{
+    color:#777777;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.con_information li:nth-child(2),.con_information li:nth-child(3){
+    margin-left: 160px;
+}
+.con_address{
+    padding-top: 28px;
+    font-size: 12px;
+    color: #333333;
+    width: 175px;
+    line-height: 20px;
+}
+.con_ewm{
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-top: 20px;
+}
+.con_ewm img{
+    width: 110px;
+    height: 110px;
+}
+.con_follow{
+    float: left;
+    margin-top: 20px;
+    line-height: 24px;
+    margin-left: 25px;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 4;
+}
+.con_logo{
+    width: 80px;
+    height: 87px;
+    position: absolute;
+    background: url("../image/idPic.png") 0 -10px no-repeat;
+    background-size:80px auto;
+    top: 0;
+    left: 44px;
+    z-index: 5;
+    opacity: .9;
+    border-radius: 50%;
+}
+
+.con_nav{
+    width: 200px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    color: #fff35f;
+    background: url('../image/ico_14.png') no-repeat scroll 18px center;
+    line-height: 40px;
+    top: 25px;
+    right: 50px;
+    border: 2px solid #fff35f;
+    text-align: center;
+}
+.con_nav span{
+    letter-spacing: 3px;
+    padding-left: 37px;
+}
+.con_navli{
+    width: 115px;
+    height: 55px;
+    background-image: url('../image/a_23.png');
+    background-repeat:no-repeat;  
+    background-position:0px center;
+    position: absolute;
+    right: 0px;
+    top: 20%;
+}
+.con_navlia{
+   background-position:-115px center;
+}
+.con_navlib{
+   background-position:-230px center;
+}
+.con_navlic{
+   background-position:-345px center;
+}
+
+
+.font_1{
+    color: #fbf392;
+    font-size: 20px;
+    letter-spacing: 15px;
+    padding-bottom: 22px;
+    background: url('../image/ico_1.png') no-repeat scroll bottom center;
+}
+.font_2{
+    font-size: 56px;
+    color: #fff;
+    padding-top: 55px;
+}   
+.font_3{
+    font-size: 24px;
+    color: #fff;
+    padding-top: 21px;
+}
+.font_4{
+    font-size: 36px;
+    color: #333333;
+    font-weight: bold;
+    letter-spacing: 15px;
+    padding-bottom: 22px;
+    background: url('../image/ico_2.png') no-repeat scroll bottom center;
+}
+.font_5{
+    font-size: 18px;
+    color: #333333;
+    padding-top: 20px;
+}
+.font_6{
+    font-size: 36px;
+    color: #fbf392;
+    font-weight: bold;
+    letter-spacing: 15px;
+    padding-bottom: 22px;
+    background: url('../image/ico_3.png') no-repeat scroll bottom center;
+}
+.font_7{
+    font-size: 18px;
+    color: #fff;
+    padding-top: 20px;
+}
+.slide-left,.slide-right{
+    width: 504px;
+    height: 287px;
+}
+.slide-left{
+    background: url('../image/ico_6.png') no-repeat scroll center center;
+}
+.slide-right{
+    background: url('../image/ico_7.png') no-repeat scroll center center;
+}
+.fuhua{
+    color: #fbf392;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 110px;
+    letter-spacing: 5px;
+}
+.neirong{
+    color: #ffffff;
+    font-size: 16px;
+    padding-top:45px;
+    line-height: 22px;
+}
+.con_server{
+    width: 1110px;
+    margin-top: 60px;
+}
+.con_server li div.xinzenli{
+    float: left;
+    width: 33.3%;
+    height: 100px;
+   
+}
+.xinzenli img{
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+.xinzenli div{
+    float: left;
+    width:277px;
+    margin-left: 20px;
+}
+.xinzenli div .a{
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+}
+.xinzenli div .b{
+    color: #888888;
+    font-size: 14px;
+}
+.ti_totle{
+    width: 220px;
+    height: 48px;
+    position: absolute;
+    left: 50%;
+    margin-left: -110px;
+    background: url('../image/ico_15.png') no-repeat scroll center center;
+    bottom: -55px;
+    display: none;
+}
+.ti_totle p{
+    text-align: center;
+    padding-top: 21px;
+    color: #fff;
+    font-size: 12px;
+
+}
