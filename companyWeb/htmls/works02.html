@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>NPLUS DIGITAL</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="nplus">
+	<link rel="shortcut icon" href="../images/favicon.ico">
+	<link type="text/css" rel="stylesheet" href="../css/base.css">
+	</head>
+<body style="background: #fff;" class="relative">
+    <div class="content pos" style="background: #fff;">
+        <div class="content-in pos">
+            <img src="../img/case4Info.jpg" />
+        </div>
+    </div>
+</body>
+<script>
+    window.onload = function(){
+        var wH,wW;
+        var oCon = document.querySelector('.content')
+        function wh(){
+            wH = document.documentElement.clientHeight;
+            wW = document.documentElement.clientWidth;
+            oCon.style.width = wW+'px';
+            oCon.style.height = wH+'px';
+        }
+        wh();
+        window.onresize = function(){
+            wh();
+        };
+    };
+
+</script>
+
+</html>
